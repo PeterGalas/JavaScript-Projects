@@ -26,7 +26,7 @@ function My_First_Fucntion() { //difining a function and naming it
 
 function myFunction() {
     var sentence = "I am Learning";
-    sentence += " a lot from this!";
+    sentence += " a lot from this JavaScript course!";
     document.getElementById("Concatencate").innerHTML = sentence;
 }
 
