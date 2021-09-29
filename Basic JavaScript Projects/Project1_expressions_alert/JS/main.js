@@ -1,16 +1,10 @@
 window.alert("Hello welcome")
 var A = "This is a String!";
 document.write(A);
-var B = "quote";
+
 document.write("Lisa told Bart, \"Knock it off, Bart! or i'll tell dad!\"<br>\"Eat me shorts!\"Bart responded.");
-var C = "quoteTwo";
+
 document.write("\"Be who you are and say what you feel," + "because those mind don\'t matter and those matter don\'t mind.\""+"-Dr. Seuss");
-
-var D = "B" + "C";
-document.write(D);
-
-var Family = "The Arezzinins", Dad = "Jeremiah", Mom = "Jan", Daughter = "Penny", Son = "Peter";
-document.write(Mom);
 
 var blues = "I have the blues.";
 var blues = blues.fontcolor("blue")
