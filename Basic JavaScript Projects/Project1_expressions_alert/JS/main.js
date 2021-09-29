@@ -22,3 +22,11 @@ function My_First_Fucntion() { //difining a function and naming it
     var result = str.fontcolor("green"); //using the fontcolor method on str variables
     document.getElementById("Green_Text") .innerHtml = result; //putting the value // of result into HTML element with "Green_text" id
 }
+
+
+function myFunction() {
+    var sentence = "I am Learning";
+    sentence += " a lot from this!";
+    document.getElementById("Concatencate").innerHTML = sentence;
+}
+
