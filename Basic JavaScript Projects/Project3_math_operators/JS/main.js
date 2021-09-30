@@ -1,6 +1,6 @@
 function addition_Function() {
     var Addition = 5 + 2;
-    document.getElementById("Addition").innerHTML = "5 - 2 = " + addition;
+    document.getElementById("Addition").innerHTML = "5 + 2 = " + Addition;
 }
 
 function subtraction_Function() {
@@ -9,28 +9,28 @@ function subtraction_Function() {
 }
 
 function multiplication_Function() {
-    var simple_Math = 6 * 8;
-    document.getElementById("Math").innerHTML = "6 x 8 = " + simple_Math;
+    var Multiply = 6 * 8;
+    document.getElementById("Multiply").innerHTML = "6 x 8 = " + Multiply;
 }
 
 function division() {
-    var simple_Math = 48 / 6;
-    document.getElementById("Math").innerHTML = "48 / 6 = " + simple_Math;
+    var Divide = 48 / 6;
+    document.getElementById("Divide").innerHTML = "48 / 6 = " + Divide;
 }
 
 function more_Math() {
-    var simple_Math = (1+2) * 10 / 2-5;
-    document.getElementById("Math").innerHTML = "1 plus 2, multiplied by 10, divided in half and then subtracted by 5 equals " + simple_Math; 
+    var long_Math = (1+2) * 10 / 2-5;
+    document.getElementById("long_Math").innerHTML = "1 plus 2, multiplied by 10, divided in half and then subtracted by 5 equals " + long_Math; 
 }
 
 function modulus_Operator() {
-    var simple_Math = 25 % 6;
-    document.getElementById("Math").innerHTML = "When you divide 25 by 6 you have a remainder of: " + simple_Math;
+    var Modulus = 25 % 6;
+    document.getElementById("Modulus").innerHTML = "When you divide 25 by 6 you have a remainder of: " + Modulus;
 }
 
 function negation_Operator() {
-    var x = 10;
-    document.getElementById("Math").innerHTML = -x;
+    var Z = 10;
+    document.getElementById("Z").innerHTML = -Z;
 }
 //adds 1 digit
 var X = 5;
