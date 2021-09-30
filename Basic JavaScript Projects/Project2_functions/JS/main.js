@@ -3,3 +3,9 @@ function myFunction() { //calling function
     sentence += " a lot, from this book!";
     document.getElementById("Concatencate") .innerHTML = sentence; //getting element by id
 }
+
+function myFunction(p1, p2) {
+    return p1 * p2;
+    }
+document.getElementbyId("demo").innerHTML = myFunction(4, 3);
+
