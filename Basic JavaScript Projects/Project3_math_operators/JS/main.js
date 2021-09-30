@@ -1,14 +1,14 @@
 function addition_Function() {
-    var addition = 5 + 2;
-    document.getElementById("Math").innerHTML = "5 - 2 = " + addition;
+    var Addition = 5 + 2;
+    document.getElementById("Addition").innerHTML = "5 - 2 = " + addition;
 }
 
 function subtraction_Function() {
     var Subtraction = 5 - 2;
-    document.getElementById("Math").innerHTML = "5 - 2 = " + Subtraction;
+    document.getElementById("Subtraction").innerHTML = "5 - 2 = " + Subtraction;
 }
 
-function multiplication() {
+function multiplication_Function() {
     var simple_Math = 6 * 8;
     document.getElementById("Math").innerHTML = "6 x 8 = " + simple_Math;
 }
@@ -42,6 +42,6 @@ X--;
 document.write(X);
 
 //number 0-1
-window.alert(Math,random());
+window.alert(Math.random());
 //number between 0-100
-window.alert(Math,random() * 100);
+window.alert(Math.random() * 100);
