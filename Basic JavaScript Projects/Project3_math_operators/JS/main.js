@@ -1,3 +1,14 @@
+function my_Dictionary() {
+    var Animal = {
+        Species:"Dog",
+        Color:"Black",
+        Breed: "French Bulldog",
+        Age:"2",
+        Sound:"Bark!"
+    };
+    document.getElementById("Dictionary").innerHTML = Animal.Sound;
+}
+
 function addition_Function() {
     var Addition = 5 + 2;
     document.getElementById("Addition").innerHTML = "5 + 2 = " + Addition;
