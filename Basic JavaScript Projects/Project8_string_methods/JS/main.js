@@ -1,3 +1,20 @@
+function countdown() {
+    var seconds = document.getElementById("seconds").value;
+  
+    function tick() {
+        seconds = seconds - 1;
+        timer.innerHTML = seconds;
+        var time = setTimeout(tick, 1000);
+        if (seconds == -1) {
+            alert("Time's Up!");
+            clearTimeout(time);
+            timer.innerHTML = "";
+        }
+    }
+    tick();
+  }
+  
+
 function full_Sentence() {//concatentating strings
     var part_1 = "I have ";
     var part_2 = "made this ";
