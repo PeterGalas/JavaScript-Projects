@@ -61,7 +61,8 @@ document.write("<br>" + X);
     document.write("<br>" + X);
 }
 document.write("<br>" + X);
-
+//string
+function funky() {
 let car = {
     make: "Dodge ",
     model: "Viper ",
@@ -72,3 +73,4 @@ let car = {
     }
 };
 document.getElementById("Car_Object").innerHTML = car.description();
+}
