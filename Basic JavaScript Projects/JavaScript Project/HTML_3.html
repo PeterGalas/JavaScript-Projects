@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Basic HTML Template</title>
+        <script src="./JavaScript/JavaScript_3.js"></script>
+    </head>
+    <body>
+    <h1>Characters</h1>
+        <h3>Click on a universe to see a character!</h3>
+        <!--gives lists you created with a resonding  data type example dc = batman when clicked-->
+        <ul>
+            <li onclick="displayType(this)" id="DC" data-character-type="Batman">DC</li>
+            <button onclick="displayType(DC)">Dark Night</button>
+        </ul>
+
+        <ul>
+            <li onclick="displayType(this)" id="Star_Wars" data-character-type="Luke Skywalker">Star Wars</li>
+            <button onclick="displayType(Star_Wars)">Jedi</button>
+        </ul>
+
+        <ul>
+            <li onclick="displayType(this)" id="Marvel" data-character-type="Thor">Marvel</li>
+            <button onclick="displayType(Marvel)">Hammer</button>
+        </ul>
+
+        <ul>
+            <li onclick="displayType(this)" id="Star_Trek" data-character-type="Jean-Luc Picard">Star Trek</li>
+            <button onclick="displayType(Star_Trek)">Space</button>
+        </ul>
+    </body>
+ </html>
